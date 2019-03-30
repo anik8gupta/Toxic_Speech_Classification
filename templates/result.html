@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		
+		<h2>Sentimental Analysis in Speech</h2>
+		
+		<p class="brandname">ML App</p>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Speech</b></p>
+	<img src="data:image/png;base64, {{ plot_url }}" align="right">
+	<div class="results">
+
+
+		
+	
+	<h2 style="color:red;">Normal: {{normal}}%</h2>
+	<h2 style="color:red;">Toxic: {{toxic}}%</h2>
+	<h2 style="color:red;">Severe Toxic: {{severe_toxic}}%</h2>
+	<h2 style="color:red;">Obscene: {{obscene}}%</h2>
+	<h2 style="color:red;">Threat: {{threat}}%</h2>
+	<h2 style="color:red;">Insult: {{insult}}%</h2>
+	<h2 style="color:red;">Identity Hate: {{identity_hate}}%</h2>
+
+	</div>
+
+
+</body>
+</html>

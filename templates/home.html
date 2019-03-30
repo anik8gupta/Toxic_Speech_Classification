@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h2>Sentimental Analysis in Speech</h2>
+		<p class="brandname">Machine Learning App with Flask</p>
+		
+		
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p>Enter/Paste Your Speech Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message" rows="25" cols="140"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="predict">
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
