@@ -10,7 +10,7 @@ Here simple CSS & HTML is used with POST method to send the data.
 
 ### For Back-End [app.py](https://github.com/anik8gupta/Toxic_Speech_Classification/blob/master/app.py), I use FLASK framework of Python
 
-### Libraries Used
+### Main Libraries Used
 * [Pandas](https://pandas.pydata.org/pandas-docs/version/0.22/)
 * [Matplotlib.pyplot](https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.plot.html)
 * [NLTK](https://www.nltk.org/)
